@@ -18,6 +18,3 @@ class BankAccount
   end 
 
 end 
-
-name = BankAccount.new("Billy")
-puts name 

@@ -18,7 +18,7 @@ class Transfer
   end
   
   def execute_transaction
-    @sender.amount += @amount 
+    @sender.amount += @amount & @status == "pending"
   end
   
 end 
